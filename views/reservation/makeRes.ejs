@@ -1,0 +1,34 @@
+<form action="/reservation" method="POST">
+  <div>
+    <h1 class="h3 mb-3 fw-normal">Book your drummer</h1>
+
+    <div class="form-floating">
+      <label for="floatingInput">Name of Event</label>
+      <input
+        type="text"
+        class="form-control"
+        id="floatingInput"
+        name="name"
+        placeholder="Name of Event"
+      />
+    </div>
+    <div class="form-floating">
+      <label for="floatingPassword">Date</label>
+      <input type="date" class="form-control" id="date" name="date" />
+    </div>
+    <div class="form-floating">
+      <label for="floatingPassword">Drummer</label>
+      <input
+        type="text"
+        class="form-control"
+        id="drummer_id"
+        name="drummer_id"
+      />
+    </div>
+    <div class="form-floating">
+      <label for="boss_id">Boss / Booker</label>
+      <input type="text" class="form-control" id="boss_id" name="boss_id" />
+    </div>
+    <button class="w-100 btn btn-lg btn-primary" type="submit">Submit</button>
+  </div>
+</form>
